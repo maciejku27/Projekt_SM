@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GymHelper</string>
+
+    <string name="btn_training">Trainings</string>
+    <string name="btn_exercise">Exercises</string>
+    <string name="btn_bmi">BMI Calculator</string>
+    <string name="btn_calendar">Calendar</string>
+    <string name="exercise_name">Name:</string>
+    <string name="exercise_kcal">Calories burnt:</string>
+    <string name="exercise_desc">Description</string>
+    <string name="exercise_desc_content1">
+        Exercise consisting of lifting a weight from the ground (usually barbells additionally loaded with plates)
+        until the exerciser has straight back and legs in knees.
+    </string>
+
+    <string name="exercise_desc_content2">
+        An exercise in which we lower the hips from a standing position downwards while bending the legs at the knees.
+    </string>
+
+    <string name="exercise_desc_content3">
+        An exercise performed in a horizontal position with your face down, which consists in raising and lowering the torso.
+    </string>
+
+    <string name="exercise_desc_content4">
+        Exercise consisting in pushing the hips with the back against the bench. It involves the buttocks to a large extent.
+    </string>
+    <string name="btn_video">Video example</string>
+    <string name="bmi_weight">Weight</string>
+    <string name="bmi_height">Height</string>
+    <string name="btn_BmiCalculate">Calculate</string>
+    <string name="bmi_result1">Very severely underweight</string>
+    <string name="bmi_result2">Severely underweight</string>
+    <string name="bmi_result3">Underweight</string>
+    <string name="bmi_result4">Normal weight</string>
+    <string name="bmi_result5">Overweight</string>
+    <string name="bmi_result6">Obese</string>
+    <string name="bmi_result7">Severely obese</string>
+    <string name="bmi_result8">Very severely obese</string>
+    <string name="exercise_name_content1">Deadlift</string>
+    <string name="exercise_name_content2">Squat</string>
+    <string name="exercise_name_content3">Push-up</string>
+    <string name="exercise_name_content4">Hip-thrust</string>
+    <string name="trainingList_name">Name</string>
+    <string name="trainingList_length">Length</string>
+    <string name="trainingAdd_name">Name:</string>
+    <string name="trainingAdd_length">Length:</string>
+    <string name="trainingAdd_et_name">Name</string>
+    <string name="trainingAdd_et_length">1h 50min</string>
+    <string name="trainingAdd_btn_accept">Accept</string>
+    <string name="trainingAdd_btn_cancel">Cancel</string>
+    <string name="change_theme">Change theme</string>
+
+</resources>

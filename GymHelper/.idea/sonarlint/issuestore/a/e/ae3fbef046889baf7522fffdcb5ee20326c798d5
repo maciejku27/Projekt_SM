@@ -1,0 +1,6 @@
+
+F
+java:S3010")Remove this assignment of "allExercises".(…ŒÕä8†ÎÅµë/
+Œ
+java:S1319$"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(½·b8ÎÅµë/
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(›Å¬İúÿÿÿÿ8ëï´µë/

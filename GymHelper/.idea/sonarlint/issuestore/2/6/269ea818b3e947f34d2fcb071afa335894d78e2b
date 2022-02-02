@@ -1,0 +1,8 @@
+
+x
+java:S1450"VRemove the "adapter" field and declare it as a local variable in the relevant methods.(µÏÁ–ûÿÿÿÿ8û¹Åµë/
+{
+java:S1450"_Remove the "exercisesRecView" field and declare it as a local variable in the relevant methods.(¡Ô¢8û¹Åµë/
+W
+java:S2209"5Change this instance-reference to a static reference.(çÀ±¿ûÿÿÿÿ8‡ºÅµë/
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(›Å¬Ýúÿÿÿÿ8ÿæ´µë/

@@ -1,0 +1,14 @@
+
+f	java:S116"QRename this field "btn_ok" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯Ø²è
+j	java:S116"URename this field "btn_cancel" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘ÊË°
+t	java:S116"ZRename this field "et_trainingName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹­¾Ÿüÿÿÿÿ
+q	java:S116"\Rename this field "et_trainingLength" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª±èï
+v
+java:S1450"YRemove the "btn_cancel" field and declare it as a local variable in the relevant methods.(‘ÊË°8Í—Ò½ë/
+r
+java:S1450"URemove the "btn_ok" field and declare it as a local variable in the relevant methods.(¯Ø²è8Í—Ò½ë/
+}
+java:S1450"`Remove the "et_trainingLength" field and declare it as a local variable in the relevant methods.(ª±èï8ø´Ò½ë/
+€
+java:S1450"^Remove the "et_trainingName" field and declare it as a local variable in the relevant methods.(¹­¾Ÿüÿÿÿÿ8ø´Ò½ë/
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ýµá¾ùÿÿÿÿ

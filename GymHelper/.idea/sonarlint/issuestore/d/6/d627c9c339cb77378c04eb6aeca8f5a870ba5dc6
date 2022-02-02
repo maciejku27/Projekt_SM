@@ -1,0 +1,16 @@
+
+`
+java:S1874W">Remove this use of "startActivityForResult"; it is deprecated.(ò¡’Ûÿÿÿÿÿ8ªİ­Ïë/
+\
+java:S1874l":Remove this use of "ViewModelProviders"; it is deprecated.(ü‡ŠÂşÿÿÿÿ8°İ­Ïë/
+L
+java:S1874l"*Remove this use of "of"; it is deprecated.(ü‡ŠÂşÿÿÿÿ8±İ­Ïë/
+[
+java:S1874r">Remove this use of "startActivityForResult"; it is deprecated.(Ì¯®8³İ­Ïë/
+f
+java:S1874x"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(¹Î¾8´İ­Ïë/
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ıµá¾ùÿÿÿÿ
+_
+java:S2259|"BA "NullPointerException" could be thrown; "data" is nullable here.(€±—8Ñİ­Ïë/
+`
+java:S2259€"BA "NullPointerException" could be thrown; "data" is nullable here.(²å†Ï8Òİ­Ïë/

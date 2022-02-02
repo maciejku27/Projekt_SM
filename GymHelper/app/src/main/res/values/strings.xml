@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">GymHelper</string>
+
+    <string name="btn_training">Treningi</string>
+
+    <string name="btn_exercise">Ćwiczenia</string>
+
+    <string name="btn_bmi">Kalkulator BMI</string>
+
+    <string name="btn_calendar">Kalendarz</string>
+
+    <string name="exercise_name">Nazwa:</string>
+
+    <string name="exercise_name_content1">Martwy ciąg</string>
+
+    <string name="exercise_name_content2">Przysiad</string>
+
+    <string name="exercise_name_content3">Pompka</string>
+
+    <string name="exercise_name_content4">Hip-thrust</string>
+
+    <string name="exercise_kcal">Spalone kalorie:</string>
+
+    <string name="exercise_desc">Opis:</string>
+
+    <string name="exercise_desc_content1">
+        Ćwiczenie polegające na podnoszeniu z podłoża ciężaru (najczęściej sztangi obciążonej dodatkowo talerzami)
+        do momentu, w którym wykonujący ćwiczenie ma proste plecy oraz nogi w kolanach.
+    </string>
+
+    <string name="exercise_desc_content2">
+        Ćwwiczenie, w którym opuszczamy biodra z pozycji stojącej w dół, jednocześnie zginając nogi w kolanach.
+    </string>
+
+    <string name="exercise_desc_content3">
+       Ćwiczenie wykonywane w pozycji poziomej, twarzą do ziemi, polegające na podnoszeniu i obniżaniu tułowia.
+    </string>
+
+    <string name="exercise_desc_content4">
+        Ćwiczenie polegające na wypychaniu bioder w podporze grzbietem o ławeczkę. W dużym stopniu angażuje pośladki.
+    </string>
+
+    <string name="btn_video">Przykład wideo</string>
+
+    <string name="bmi_weight">Waga</string>
+
+    <string name="bmi_height">Wzrost</string>
+
+    <string name="btn_BmiCalculate">Policz</string>
+
+    <string name="bmi_result1">Bardzo poważna niedowaga</string>
+
+    <string name="bmi_result2">Poważna niedowaga</string>
+
+    <string name="bmi_result3">Niedowaga</string>
+
+    <string name="bmi_result4">Normalna waga</string>
+
+    <string name="bmi_result5">Nadwaga</string>
+
+    <string name="bmi_result6">Otyłość</string>
+
+    <string name="bmi_result7">Poważna otyłość</string>
+
+    <string name="bmi_result8">Bardzo poważna otyłość</string>
+
+    <string name="trainingList_name">Nazwa</string>
+
+    <string name="trainingList_length">Długość</string>
+
+    <string name="trainingAdd_name">Nazwa:</string>
+
+    <string name="trainingAdd_length">Długość:</string>
+
+    <string name="trainingAdd_et_name">Nazwa</string>
+
+    <string name="trainingAdd_et_length">1h 50min</string>
+
+    <string name="trainingAdd_btn_accept">Akceptuj</string>
+
+    <string name="trainingAdd_btn_cancel">Anuluj</string>
+
+    <string name="change_theme">Zmień motyw</string>
+
+</resources>

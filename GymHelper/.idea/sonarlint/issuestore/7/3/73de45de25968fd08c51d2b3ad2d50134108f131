@@ -1,0 +1,8 @@
+
+N
+java:S16020",Remove useless curly braces around statement(«¾Âşÿÿÿÿ8³íÃµë/
+P
+java:S11615":Add the "@Override" annotation above this method signature(Ôö§ó
+<	java:S131=""Add a default case to this switch.(øå´¡ÿÿÿÿÿ
+f
+java:S1301="KReplace this "switch" statement by "if" statements to increase readability.(øå´¡ÿÿÿÿÿ

@@ -1,0 +1,6 @@
+
+u
+java:S3008"SRename this field "INSTANCE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Âþ„ÿûÿÿÿÿ8×Òòºë/
+y
+java:S3077"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(Âþ„ÿûÿÿÿÿ8ÜÒòºë/
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÚÝßŒøÿÿÿÿ
