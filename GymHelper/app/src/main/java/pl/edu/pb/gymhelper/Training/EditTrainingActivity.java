@@ -1,6 +1,7 @@
 package pl.edu.pb.gymhelper.Training;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.lifecycle.ViewModelProviders;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -16,44 +17,36 @@ import pl.edu.pb.gymhelper.R;
 
 public class EditTrainingActivity extends AppCompatActivity {
 
-    public static final String EXTRA_EDIT_TRAINING_NAME = "pb.edu.pl.EDIT_TRAINING_NAME";
-    public static final String EXTRA_EDIT_TRAINING_LENGTH = "pb.edu.pl.EDIT_TRAINING_LENGTH";
 
-    private Button btn_ok;
     private Button btn_cancel;
     private EditText et_trainingName;
     private EditText et_trainingLength;
 
+    private TrainingViewModel trainingViewModel;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_training);
 
-        btn_ok = findViewById(R.id.btn_ok);
         btn_cancel = findViewById(R.id.btn_cancel);
         et_trainingName = findViewById(R.id.et_trainingName);
         et_trainingLength = findViewById(R.id.et_trainingLength);
 
-        if (getIntent().hasExtra(EXTRA_EDIT_TRAINING_NAME)) {
-            et_trainingName.setText(getIntent().getStringExtra(EXTRA_EDIT_TRAINING_NAME));
-            et_trainingLength.setText(getIntent().getStringExtra(EXTRA_EDIT_TRAINING_LENGTH));
-        }
+        trainingViewModel = ViewModelProviders.of(this).get(TrainingViewModel.class);
 
-        btn_ok.setOnClickListener(view -> {
-
+        final Button btn_ok = findViewById(R.id.btn_ok);
+        btn_ok.setOnClickListener(e -> {
             Intent replyIntent = new Intent();
             if (TextUtils.isEmpty(et_trainingName.getText())
                     || TextUtils.isEmpty(et_trainingLength.getText())) {
                 setResult(RESULT_CANCELED, replyIntent);
             } else {
-                String name = et_trainingName.getText().toString();
-                replyIntent.putExtra(EXTRA_EDIT_TRAINING_NAME, name);
-                String length = et_trainingLength.getText().toString();
-                replyIntent.putExtra(EXTRA_EDIT_TRAINING_LENGTH, length);
-                setResult(RESULT_OK, replyIntent);
+                Training training = new Training(et_trainingName.getText().toString(),
+                        et_trainingLength.getText().toString());
+                trainingViewModel.insert(training);
             }
-            finish();
+
 
             Intent intent = new Intent(EditTrainingActivity.this, TrainingActivity.class);
             startActivity(intent);

@@ -42,7 +42,7 @@ public abstract class TrainingDatabase extends RoomDatabase {
             synchronized (TrainingDatabase.class) {
                 if (INSTANCE == null) {
                     INSTANCE = Room.databaseBuilder(context.getApplicationContext(),
-                            TrainingDatabase.class, "training_db")
+                            TrainingDatabase.class, "training_db2")
                             .addCallback(sRoomDatabaseCallback)
                             .build();
                 }

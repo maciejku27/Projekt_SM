@@ -74,7 +74,7 @@ public class ExercisesRecViewAdapter extends RecyclerView.Adapter<ExercisesRecVi
         private TextView txtName;
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
-            parent = itemView.findViewById(R.id.parent);
+            parent = itemView.findViewById(R.id.parent_);
             imgExercise = itemView.findViewById(R.id.imgEx);
             txtName = itemView.findViewById(R.id.txtName);
         }
